@@ -1,17 +1,27 @@
 {
+    "type": "module",
     "id": "flying-is-for-droids",
     "title": "Flying is for Droids",
     "description": "Automations and homebrew improvements for space combat in Star Wars FFG",
-    "version": "0.1",
-    "compatibility": {
-        "minimum": 12,
-        "verified": "12"
-    },
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
     "authors": [
         {
             "id": "LodtheFraud",
             "discord": "@lodthefraud",
             "url": "https://github.com/LedtheTed"
         }
-    ]
+    ],
+    "version": "0.1",
+    "compatibility": {
+        "minimum": 12,
+        "verified": "12"
+    },
+    "system": ["starwarsffg"],
+    "esmodules": ["ffg-flying-is-for-droids.js"]
 }
