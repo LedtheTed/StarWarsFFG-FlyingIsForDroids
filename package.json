@@ -1,0 +1,25 @@
+{
+  "name": "starwarsffg-flyingisfordroids",
+  "version": "1.0.0",
+  "description": "A module to automate and improve ship combat in the Star Wars RPG system.",
+  "main": "flying-is-for-droids.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LedtheTed/StarWarsFFG-FlyingIsForDroids.git"
+  },
+  "keywords": [],
+  "author": "LodtheFraud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LedtheTed/StarWarsFFG-FlyingIsForDroids/issues"
+  },
+  "homepage": "https://github.com/LedtheTed/StarWarsFFG-FlyingIsForDroids#readme",
+  "devDependencies": {
+    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main"
+  }
+}
