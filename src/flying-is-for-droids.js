@@ -11,7 +11,8 @@ Hooks.once("init", () => {
 Hooks.on("preCreateActor", (actor, data, options, user) => {
     if (actor.type === 'vehicle') {
         game.weaponPower();
-        actor.setFlag(MODULE_ID, "weaponPower", WeaponPower.setPower());
+        game.weaponPower.setPower(actor);
+
     }
 });
 
