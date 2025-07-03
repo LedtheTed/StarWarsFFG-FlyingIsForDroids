@@ -9,3 +9,11 @@ export const MODULE_ID = "flying-is-for-droids";
 export function log(feature, message) {
     console.log(`${MODULE_ID} | ${feature} | ${message}`);
 }
+
+export function error(feature, message) {
+    console.error(`${MODULE_ID} | ${feature} | ${message}`);
+}
+
+export function warn(feature, message) {
+    console.warn(`${MODULE_ID} | ${feature} | ${message}`);
+}
